@@ -1,0 +1,31 @@
+.navbar__bg {
+    background-color: #ef5350;
+}
+
+.navbar__title {
+    font-size: 35px;
+    font-weight: 700;
+    color:white;
+    text-align: center;
+
+}
+.header__bloque {
+    font-family: "roboto", sans-serif;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 3rem 0rem;
+}
+
+.header__bloque--titulo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #ef5350;
+    margin: 1rem 0rem;
+}
+
+.header__bloque--parrafo {
+    font-size: 20px;
+    font-weight: 300;
+    font-style: italic;
+}
