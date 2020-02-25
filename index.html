@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <meta name="author" content="Victor B.">
     <meta name="description" content="Prueba módulo JS - Integración con API rest con jquery">
-    <title>Ejercicio api rest</title>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Prueba módulo javascript - Pokedex</title>
 
     <!--Link Bootstrap 4.4-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -55,7 +56,7 @@
 
                     <h1 class="header__bloque--titulo">Bienvenido a la mejor Pokedex, creada por fanáticos, para fanáticos</h1>
 
-                    <p class="header__bloque--parrafo">Aquí puedes encontrar de manera fácil y rápida la información más relevante de cada pokemon, prueba y conoce todo acerca de tu pokemon favorito</p>
+                    <p class="header__bloque--parrafo">Aquí puedes encontrar de manera fácil y rápida la información más relevante de cada pokemon, busca a tu pokemón favorito y conoce todo acerca de él</p>
 
                 </div>
 
@@ -67,17 +68,19 @@
 <!--Inicio Formulario-->
     <section class="container" id="form">
 
-        <h1>¡Busca a tu Pokémon!</h1>
-          <form id="form">
-            <div class="input-group col-md-12 col-xs-12 col-sm-12">
-              <input type="text" class="form-control input-lg" id="pokemon-name" placeholder="Buscar por nombre o número"/>
-              <span class="input-group-btn" id="pokesearch">
-                <button class="btn btn-danger btn-lg" type="button">
-                  <i class="glyphicon glyphicon-search"></i>
-                </button>
-              </span>
-            </div>
-          </form>
+        <div class="">
+            <h1 class="form__title">¡Busca a tu Pokémon!</h1>
+            <form id="form">
+                <div class="input-group col-md-12 col-xs-12 col-sm-12">
+                <input type="text" class="form-control input-lg" id="pokemon-name" placeholder="Buscar por nombre o número"/>
+                <span class="input-group-btn" id="pokesearch">
+                    <button class="form__button btn" type="button">
+                    BUSCAR
+                    </button>
+                </span>
+                </div>
+            </form>
+        </div>
 
 
     </section>
