@@ -1,3 +1,7 @@
+
+
+/*navbar styles*/
+
 .navbar__bg {
     background-color: #ef5350;
 }
@@ -7,14 +11,27 @@
     font-weight: 700;
     color:white;
     text-align: center;
+}
+
+.navbar__list--item a {
+    text-decoration: none;
 
 }
+
+
+/*header styles*/
+
 .header__bloque {
     font-family: "roboto", sans-serif;
     text-align: center;
     width: 80%;
     margin: auto;
     padding: 3rem 0rem;
+}
+
+.header__imagen {
+    width: 100%;
+    height: auto;
 }
 
 .header__bloque--titulo {
@@ -25,7 +42,28 @@
 }
 
 .header__bloque--parrafo {
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 300;
     font-style: italic;
 }
+
+
+/*form styles*/
+
+
+
+
+
+/*graphics styles*/
+
+
+
+
+
+/*footer styles*/
+
+
+
+
+
+/*media quieries*/

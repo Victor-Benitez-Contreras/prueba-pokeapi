@@ -14,31 +14,45 @@
 
     <!--Link CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!--JQuery CDN-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     
 </head>
 
 <body>
-    <div class="pos-f-t">
-        <div class="collapse" id="navbarToggleExternalContent">
-          <div class="navbar__bg p-4">
-            <h5 class="navbar__title">- Pokedex -</h5>
-            <ul>
-                <li><a>Inicio</a></li>
-                <li><a>Consultar</a></li>
-                <li><a>Gráficos</a></li>
-            </ul>
-          </div>
+
+<!--Inicio Navbar-->
+<div class="navbar__bg">
+    <nav class="container">
+        <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+            <div class="navbar__bg p-4">
+                <h5 class="navbar__title">- Pokedex -</h5>
+                <ul>
+                    <li class="navbar__list--item"><a href="#home">Inicio</a></li>
+                    <li class="navbar__list--item"><a href="#form">Consultar</a></li>
+                    <li class="navbar__list--item"><a href="#graphics">Gráficos</a></li>
+                </ul>
+            </div>
+            </div>
+            <nav class="navbar navbar-dark navbar__bg">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            </nav>
         </div>
-        <nav class="navbar navbar-dark navbar__bg">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </nav>
-      </div>
-    <header class="container">
+    </nav>
+</div>
+
+<!--Inicio Header-->
+    <header class="container" id="home">
         <div class="row">
             <div class="col-12">
                 <div class="header__bloque">
+
+                    <img src="assets/img/Pokemon-logo.png" alt="imagen header pokedex" class="header__imagen">
+
                     <h1 class="header__bloque--titulo">Bienvenido a la mejor Pokedex, creada por fanáticos, para fanáticos</h1>
 
                     <p class="header__bloque--parrafo">Aquí puedes encontrar de manera fácil y rápida la información más relevante de cada pokemon, prueba y conoce todo acerca de tu pokemon favorito</p>
@@ -48,24 +62,40 @@
 
             </div>
         </div>
-
     </header>
-    <section>
+
+<!--Inicio Formulario-->
+    <section class="container" id="form">
+
+        <h1>¡Busca a tu Pokémon!</h1>
+          <form id="form">
+            <div class="input-group col-md-12 col-xs-12 col-sm-12">
+              <input type="text" class="form-control input-lg" id="pokemon-name" placeholder="Buscar por nombre o número"/>
+              <span class="input-group-btn" id="pokesearch">
+                <button class="btn btn-danger btn-lg" type="button">
+                  <i class="glyphicon glyphicon-search"></i>
+                </button>
+              </span>
+            </div>
+          </form>
 
 
     </section>
-    <section>
+
+<!--Inicio Gráfico-->
+    <section class="container" id="graphics">
+
+
 
 
     </section>
-    <section>
 
-
-    </section>
-
-
-
-
+<!--Inicio Footer-->
+    <footer class="container">
+        <div>
+            <div></div>
+        </div>
+    </footer>
 
 <!--Scripts Bootstrap 4.4-->
 
@@ -73,7 +103,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-<!--Scripts Proyectos-->
+<!--Scripts Proyecto-->
 
     <script src="assets/js/scripts.js"></script>
 

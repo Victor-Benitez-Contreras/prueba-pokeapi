@@ -1,9 +1,13 @@
+
+$('#pokesearch').click(function() {
+
+
 $.ajax({
-    type: "method",
-    url: "url",
-    data: "data",
-    dataType: "dataType",
-    success: function (response) {
-        
+    url: `https://pokeapi.co/api/v2/pokemon/${pokemonNameLower}`,
+    type: 'GET',
+    datatype: 'json',
+    success: function(results) {
+      console.log(results);
     }
-});
+  }).done(response).fail(error);
+
