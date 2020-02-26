@@ -16,14 +16,17 @@
     <!--Link CSS-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
+    <!--FontAwesome CSS-->
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+
     <!--JQuery CDN-->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     
 </head>
 
 <body>
-
 <!--Inicio Navbar-->
+
 <div class="navbar__bg">
     <nav class="container">
         <div class="pos-f-t">
@@ -46,10 +49,14 @@
     </nav>
 </div>
 
+
 <!--Inicio Header-->
+
     <header class="container" id="home">
         <div class="row">
             <div class="col-12">
+
+
                 <div class="header__bloque">
 
                     <img src="assets/img/Pokemon-logo.png" alt="imagen header pokedex" class="header__imagen">
@@ -65,11 +72,15 @@
         </div>
     </header>
 
-<!--Inicio Formulario-->
+
+<!-- Inicio Formulario-->
+
     <section class="container" id="form">
 
         <div class="">
+
             <h1 class="form__title">¡Busca a tu Pokémon!</h1>
+
             <form id="form">
                 <div class="input-group col-md-12 col-xs-12 col-sm-12">
                 <input type="text" class="form-control input-lg" id="pokemon-name" placeholder="Buscar por nombre o número"/>
@@ -80,12 +91,31 @@
                 </span>
                 </div>
             </form>
+            
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                      <h3 class="title-modal" id="myModalLabel">Info</h3>
+                    </div>
+                    <div class="info-modal">
+                    </div>
+                    <div class="pie-modal">
+                      <button type="button" class="btn btn-danger close-modal" data-dismiss="modal">Cerrar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
         </div>
 
 
     </section>
 
+
 <!--Inicio Gráfico-->
+
     <section class="container" id="graphics">
 
 
@@ -93,17 +123,21 @@
 
     </section>
 
+
 <!--Inicio Footer-->
-    <footer class="container">
-        <div>
-            <div></div>
+
+    <footer class="footer">
+        <div class="container footer__principal">
+            <div class="row">
+                <div class="footer__content col-12">
+                    <p class="footer__content--text"> Desarrollado por <span class="footer__span">VicNx</span> con <i class="fa-heart"></i> </p>
+                </div>
+            </div>
         </div>
     </footer>
 
 <!--Scripts Bootstrap 4.4-->
 
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 <!--Scripts Proyecto-->

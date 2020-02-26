@@ -76,6 +76,35 @@ body {
 
 /*footer styles*/
 
+.footer {
+    background: #ef5350;
+}
+
+.footer__principal {
+    text-align: center;
+}
+
+.footer__content {
+    padding: 2rem 0rem;
+}
+
+.footer__content--text {
+    font-family: "raleway";
+    color: white;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.fa-heart {
+    width: 100%;
+    height: auto;
+    fill: white;
+}
+
+.footer__span {
+    font-style: italic;
+    color: #cccccc;
+}
 
 
 
